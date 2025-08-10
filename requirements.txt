@@ -1,0 +1,8 @@
+google-ads>=22.0.0
+PyYAML>=6.0
+pandas>=2.2
+numpy>=1.26
+requests>=2.32
+beautifulsoup4>=4.12
+tldextract>=5.1
+pytrends>=4.9

@@ -1,0 +1,70 @@
+brand:
+  name: "Cube"
+  website: "https://cubehq.ai/"
+
+competitors:
+  - name: "Reputation"
+    website: "https://reputation.com/"
+
+service_locations: ["Mumbai", "Bengaluru", "Bangalore", "Delhi", "Pune"]
+
+budgets:
+  shopping: 2000
+  search: 3000
+  pmax: 2000
+
+enable_shopping: true
+conversion_rate: 0.02
+
+seed_keywords:
+  - "reputation management software"
+  - "google reviews management"
+  - "review generation tool"
+  - "business listings management"
+  - "brand mention monitoring"
+  - "customer feedback nps csat"
+  - "social listening tool"
+  - "local seo reviews"
+
+mode:
+  source_priority: ["gkp", "fallback"]
+
+fallback:
+  geo: "IN"
+  scale_per_100: 20000
+  min_volume: 200
+  autocomplete_variants: 4
+  max_keywords: 800
+
+# Keep empty for first run; add back later for tighter focus
+domain_keywords: []
+
+pmax_theme_rules:
+  "Reputation Management":
+    - "reputation"
+    - "brand"
+    - "mention"
+    - "sentiment"
+  "Review Generation":
+    - "review"
+    - "rating"
+    - "google reviews"
+    - "feedback"
+  "Listings & Local SEO":
+    - "listing"
+    - "local"
+    - "gmb"
+    - "gbp"
+  "Social Listening":
+    - "social"
+    - "listening"
+    - "monitoring"
+  "Surveys & VoC (NPS/CSAT)":
+    - "nps"
+    - "csat"
+    - "survey"
+    - "feedback"
+
+google_ads:
+  language_constant: "languageConstants/1000"
+  geo_target_constants: ["geoTargetConstants/2356"]
